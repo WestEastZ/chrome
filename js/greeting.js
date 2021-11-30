@@ -16,11 +16,13 @@ function onLoginSubmit(event) {
   localStorage.setItem("USER_NAME_KEY", username);
   paintGreeting(username);
 }
+
 // greeting함수
 function paintGreeting(username) {
   greeting.innerText = `Hello ${username}`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
+
 // storage 확인 if
 if (savename === null) {
   loginForm.classList.remove(HIDDEN_CLASSNAME);
