@@ -24,6 +24,7 @@ function painatToDo(newTodo) {
   span.innerText = newTodo.text;
   const button = document.createElement("button");
   button.innerText = "X";
+  button.classList.add("delect-btn");
   button.addEventListener("click", deleteToDo);
   li.appendChild(span);
   li.appendChild(button);
