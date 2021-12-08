@@ -4,6 +4,7 @@
   font-size: 40px;
   font-weight: bold;
   text-align: center;
+  width: auto;
 }
 
 #login-form input {
@@ -25,4 +26,5 @@
 .todo-form_input-enter {
   font-size: 30px;
   margin: 20px;
+  width: auto;
 }
